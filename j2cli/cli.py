@@ -1,6 +1,9 @@
 import os, sys
 import argparse
 
+reload(sys)
+sys.setdefaultencoding('utf-8')
+
 import jinja2
 import jinja2.loaders
 from . import __version__
